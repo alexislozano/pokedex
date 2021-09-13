@@ -1,6 +1,6 @@
 mod create_pokemon;
-mod fetch_all_pokemons;
 mod delete_pokemon;
+mod fetch_all_pokemons;
 mod fetch_pokemon;
 mod health;
 
