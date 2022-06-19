@@ -1,5 +1,4 @@
 use std::cmp::{PartialEq, PartialOrd};
-use std::convert::TryFrom;
 
 #[derive(PartialEq, Clone, PartialOrd, Ord, Eq)]
 pub struct PokemonNumber(u16);

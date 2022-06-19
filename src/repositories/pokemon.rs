@@ -1,7 +1,6 @@
 use crate::domain::entities::{Pokemon, PokemonName, PokemonNumber, PokemonTypes};
 use rusqlite::{params, params_from_iter, Connection, Error::SqliteFailure, OpenFlags};
 use serde::Deserialize;
-use std::convert::TryFrom;
 use std::sync::{Mutex, MutexGuard};
 
 pub enum InsertError {
